@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_padding_top">10dp</dimen>
+    <dimen name="margin_left">10dp</dimen>
+    <dimen name="margin_right">10dp</dimen>
+    <dimen name="question_padding">10dp</dimen>
+    <dimen name="answers_padding">6dp</dimen>
+    <dimen name="radiogroup_margin_bottom">10dp</dimen>
+    <dimen name="button_margin_top">15dp</dimen>
+    <dimen name="button_margin_bottom">25dp</dimen>
+    <dimen name="button_width">120dp</dimen>
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">GamingQuiz App</string>
+    <!--Question Nr. 1-->
+    <string name="question_Nr.1">What does the term PVE mean?</string>
+    <string name="hintAnswer_questionNr1">Enter your answer here</string>
+
+    <!--Question Nr. 2-->
+    <string name="question_Nr.2">Top 3 most played Games in the world?</string>
+    <string name="checkbox_1">Fortnite</string>
+    <string name="checkbox_2">League of Legends</string>
+    <string name="checkbox_3">Hearthstone</string>
+    <string name="checkbox_4">Minecraft</string>
+
+    <!--Question Nr. 3-->
+    <string name="question_Nr.3">What is the meaning of TTK?</string>
+    <string name="radioButton_1">Team Tag Kill</string>
+    <string name="radioButton_2">Turn The Key</string>
+    <string name="radioButton_3">Time To Kill</string>
+
+    <!--Question Nr. 4-->
+    <string name="question_Nr.4">What does NPC stand for?</string>
+    <string name="hintAnswer_questionNr4">Enter your answer here</string>
+
+    <!--Question Nr. 5-->
+    <string name="question_Nr.5">What does Buff Mean?</string>
+    <string name="RB2_1">Improves a characters stats</string>
+    <string name="RB2_2">Worsens a characters stats</string>
+
+    <!--Reset Button-->
+    <string name="reset">Reset</string>
+
+    <!--Send Button-->
+    <string name="send">Send</string>
+
+    <!--/Result Answers for TOASTS-->
+    <string name="right_answer"> "CONGRATULATIONS!!! You win with a score of 5/</string>
+    <string name="you_loose">"You Loose! "</string>
+    <string name="wrong_answer">You did not mark all the correct answers. Score: 5/</string>
+    <string name="error">Sorry this score is invalid. Please restart the application</string>
+    <string name="all_CB_answers_not_marked">"You did not mark all the answers in the Checkbox"</string>
+    <string name="all_answers_not_marked">"You did not mark all the answers"</string>
+
+
+</resources>

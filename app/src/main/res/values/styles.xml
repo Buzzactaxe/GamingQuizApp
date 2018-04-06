@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Reset + Send Button Style -->
+    <style name="Button" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin_bottom</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_top</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- RadioButton Style -->
+    <style name="RadioButton" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textColor">@color/answer</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Questions style -->
+    <style name="Questions" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left</item>
+        <item name="android:layout_marginRight">@dimen/margin_right</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/question_shape</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorText_Icons</item>
+    </style>
+
+    <!-- CheckBox Layout style -->
+    <style name="LinearLayoutCB" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left</item>
+        <item name="android:layout_marginRight">@dimen/margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/radiogroup_margin_bottom</item>
+        <item name="android:background">@drawable/answer_shape</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- LinearLayout of EditText Style -->
+    <style name="LayoutET" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left</item>
+        <item name="android:layout_marginRight">@dimen/margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/radiogroup_margin_bottom</item>
+        <item name="android:background">@drawable/answer_shape</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- EditText Style -->
+    <style name="EditText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left</item>
+        <item name="android:layout_marginRight">@dimen/margin_right</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:inputType">textCapCharacters</item>
+        <item name="android:textColorHint">@color/textColorHint</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- RelativeLayout -->
+    <style name="RelativeLayout" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/gaming</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+    <!-- Checkbox Style -->
+    <style name="CheckBox" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textColor">@color/answer</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- RadioGroup Style -->
+    <style name="RadioGroup" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/answer_shape</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+</resources>
